@@ -13,21 +13,19 @@ html, body {
   padding: 2.5%;
   background: #F5F5F5;
 }
+h1, h2, h3 ,h4 {
+  display: inline-block;
+}
 
 .row {
-  /*width: 100%;*/
   padding: 0;
   margin: 0;
   max-width: 100%;
-  /*height: 500px;*/
-  border: 1px solid green;
-
 }
 
 /*--------------------Header Row*------------------*/
 
 .heads {
-  border: 1px solid green;
   margin-bottom: 5%;
 }
 .navbar {
@@ -35,8 +33,6 @@ html, body {
   position: relative;
   max-width: 100%;
   width: 100%;
-  border: 1px solid yellow;
-
 }
 .navbar-header {
   width: 14%;
@@ -47,7 +43,6 @@ html, body {
   margin-left: 1%;
 }
 .navbar-header span {
-  border: 1px solid grey;
 }
 .navbar-header button {
   border: none;
@@ -67,38 +62,28 @@ html, body {
   width: 25px;
   height: auto
 }
- h3 {
+ h1 {
   padding-top: 5%;
   padding-bottom: 5%;
 }
 /*--------------------Trends Row*------------------*/
 
-.trends {
-  /*height: 60%;*/
-}
 .trendsTwo {
-  border: 2px solid yellow;
 }
-.future {
-  background-color: blue;
-  height: 10%;
 
-}
 .future h4 {
   display: inline-block;
-  color: white;
+  color: black;
   margin: 0;
   padding: 0;
 
 }
 .smallerTrend {
-
   background-color: white;
-  border: 2px solid red;
+
 }
 .smallerTrendHide {
   background-color: white;
-  border: 2px solid red;
 }
 
 /*--------------------Tools Row Two*------------------*/
@@ -127,7 +112,15 @@ html, body {
 
 /*--------------------Latest Data Row*------------------*/
 .latestData {
-
+  background-color: #3367D6;
+  color: white;
+  padding-bottom: 10%;
+}
+.latestData button {
+  color: blue;
+  border: none;
+  background-color: white;
+  border-radius: 3px;
 }
 .hInline {
   display: inline-block;
@@ -135,7 +128,8 @@ html, body {
 
 /*--------------------Footer Row*------------------*/
 .foot {
-
+  padding-top: 10%;
+  border-top: 1px solid white;
   background-color: #3367D6;
   color: white;
 }
@@ -157,18 +151,17 @@ html, body {
       display: none;
     }
 }
-@media screen and (min-width: 601px) and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 1000px) {
   .smallerTrend {
     display: none;
   }
+
+}
+@media screen and (min-width: 1001px) {
   .smallerTrendHide {
-    max-width: 50%;
-    display: inline-block;
-    position: relative;
+    display: none;
   }
-  #floatThisRight {
-    float: right;
-  }
+
 }
 
 /*.navbar-collapse {
