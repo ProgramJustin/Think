@@ -1,7 +1,7 @@
 * {
 
   box-sizing: border-box;
-border: 1px solid black;
+
 }
 html, body {
   width: 100%;
@@ -107,6 +107,7 @@ html, body {
   display: block;
   margin: auto;
 }
+
 /*.navbar-collapse {
   margin-left: 5%;
 }*/
