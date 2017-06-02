@@ -22,7 +22,7 @@ html, body {
   padding: 0;
   margin: 0;
   max-width: 100%;
-  height: 400px;
+  height: 500px;
   border: 1px solid green;
 
 }
@@ -77,11 +77,6 @@ html, body {
 .trends {
   height: 350px;
 }
-.col-xs-12 {
-  height: 60%;
-  background-color: white;
-  margin: 2.5% 0;
-}
 .future {
   background-color: blue;
   height: 100%;
@@ -93,7 +88,10 @@ html, body {
 
 }
 .trendsTwo {
-  height: 350px;
+  /*height: 400px;*/
+}
+.tools {
+  height: 800px;
 }
 .divStock {
   background-color: #CFD7DC;
@@ -107,6 +105,26 @@ html, body {
   display: block;
   margin: auto;
 }
+.latestData {
+  height: 300px
+}
+.hInline {
+  display: inline-block;
+}
+.foot {
+  height: 250px;
+  background-color: #3367D6;
+  color: white;
+}
+.foot ul {
+  float: left;
+  list-style: none;
+}
+.foot ul li {
+  display: inline;
+  margin: 1% 5%;
+}
+@media screen 
 
 /*.navbar-collapse {
   margin-left: 5%;
