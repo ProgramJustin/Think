@@ -6,10 +6,32 @@
 .container-fluid {
   height: 100%
 }
-.heads {
+.navbar {
+  background-color: white;
+  border: none;
+  position: relative;
+}
+.navbar-header {
+  float: left;
+  margin: 0 5%;
+  border: none;
+  position: relative;
+}
+.navbar-header button {
+  border: none;
+}
+.navbar a img {
+  position: absolute;
+  top: 25%;
+}
+.mag {
+  float: right;
+  margin: 0 10%;
+}
+/*.heads {
   background-color: #E2E7EA;
   height: 450px;
 }
 .col-md-6, .col-md-3 {
   border: 2px solid red
-}
+}*/
