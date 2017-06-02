@@ -26,6 +26,9 @@ html, body {
   border: 1px solid green;
 
 }
+
+/*--------------------Header Row*------------------*/
+
 .heads {
   border: 1px solid green;
   margin-bottom: 5%;
@@ -54,9 +57,6 @@ html, body {
 }
 .navbar #athink {
   overflow: auto;
-
-  /*float: left;*/
-  /*display: inline-block;*/
 }
 .navbar .think {
   float: left;
@@ -74,6 +74,9 @@ html, body {
   padding-top: 20px;
   padding-left: 20px;
 }
+
+/*--------------------Trends Row*------------------*/
+
 .trends {
   height: 350px;
 }
@@ -90,6 +93,9 @@ html, body {
 .trendsTwo {
   /*height: 400px;*/
 }
+
+/*--------------------Tools Row*------------------*/
+
 .tools {
   height: 800px;
 }
@@ -101,16 +107,23 @@ html, body {
   max-width: 10%;
 
 }
+
+/*--------------------Button*------------------*/
+
 .learn {
   display: block;
   margin: auto;
 }
+
+/*--------------------Latest Data Row*------------------*/
 .latestData {
   height: 300px
 }
 .hInline {
   display: inline-block;
 }
+
+/*--------------------Footer Row*------------------*/
 .foot {
   height: 250px;
   background-color: #3367D6;
@@ -124,7 +137,9 @@ html, body {
   display: inline;
   margin: 1% 5%;
 }
-@media screen 
+@media screen and (min-width: 0px) and (max-width: 600px) {
+
+}
 
 /*.navbar-collapse {
   margin-left: 5%;
