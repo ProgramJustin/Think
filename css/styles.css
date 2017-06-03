@@ -141,6 +141,11 @@ html, body {
 .learn {
   display: block;
   margin: 5% auto;
+  background-color: #3367D6;
+  color: white;
+  border: none;
+  border-radius: 2.5px;
+  padding: 1%;
 
 }
 
@@ -234,8 +239,8 @@ html, body {
   .floatP {
     float: right;
     width: 30%;
-    margin: 0 5%;
-    padding-bottom: 5%;
+    margin: 0 1%;
+    padding-bottom: 4%;
   }
   .smallerTrendHide {
     display: none;
