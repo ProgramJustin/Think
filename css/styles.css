@@ -8,7 +8,6 @@ html, body {
 .container-fluid {
   width: 100%;
   height: 100%;
-  position: relative;
   margin: 0;
   padding: 2.5%;
   background: #F5F5F5;
@@ -24,6 +23,7 @@ html, body {
 
 .heads {
   margin-bottom: 5%;
+
 }
 .navbar {
   border: none;
@@ -32,19 +32,20 @@ html, body {
   width: 100%;
 }
 .navbar-header {
-  width: 14%;
-  border: none;
-  overflow: auto;
-  float: left;
-  display: inline-block;
-  margin-left: 1%;
-}
-.navbar-header span {
-  border: 2px solid grey;
-}
-.navbar-header button {
-  border: none;
 
+}
+/*.navbar-header span {
+  border: 2px solid grey;
+}*/
+.navbar-header button {
+  width: 100%;
+  border: none;
+  /*background-color: transparent;*/
+
+}
+.navbar-header button span {
+  height: 10%;
+  background-color: black;
 }
 .navbar #athink {
   overflow: auto;
@@ -61,22 +62,20 @@ html, body {
   width: 25px;
   height: auto
 }
- h1 {
-  padding-top: 5%;
-  padding-bottom: 5%;
+ .heads h1 {
+  padding: 5% 10%;
 }
 /*--------------------Trends Row*------------------*/
 
 .future {
-  padding-bottom: 10%;
+  padding-bottom: 225px;
+  border: 1px solid black;
 }
 
 .future h4 {
-
   color: black;
   margin: 0;
   padding: 0;
-
 }
 .smallerTrend {
   background-color: white;
@@ -129,6 +128,7 @@ html, body {
 }
 .hInline {
   display: inline-block;
+  background-color: white;
 }
 
 /*--------------------Footer Row*------------------*/
@@ -154,18 +154,46 @@ html, body {
     .smallerTrendHide {
       display: none;
     }
+    .floatP {
+      display: none;
+    }
+
 }
 @media screen and (min-width: 601px) and (max-width: 1000px) {
   .smallerTrend {
     display: none;
   }
+  .floatP {
+    display: none;
+  }
+  .navbar-header {
+    border: none;
+    overflow: auto;
+    float: left;
+    /*display: block;*/
+
+  }
 
 }
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 1001px) and (max-width: 2000px){
+
+  .heads {
+    background-image: url(../img/us.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    /*background-color: red;*/
+    border: 2px solid red;
+  }
+  .floatP {
+    float: right;
+    width: 30%;
+    margin: 0 5%;
+    padding-bottom: 5%;
+  }
   .smallerTrendHide {
     display: none;
   }
-
 }
 
 /*.navbar-collapse {
