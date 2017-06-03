@@ -9,7 +9,7 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 2.5%;
+  padding: 1%;
   background: #F5F5F5;
 }
 
@@ -66,28 +66,61 @@ html, body {
   padding: 5% 10%;
 }
 /*--------------------Trends Row*------------------*/
-
+.trends, .trendsTwo {
+  height: 350px;
+  margin-bottom: 2%;
+}
 .future {
   padding-bottom: 225px;
   border: 1px solid black;
+  margin: 0 1%;
+  height: 100%;
 }
-
-.future h4 {
-  color: black;
-  margin: 0;
-  padding: 0;
+.theatre {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  /*height: 100%;*/
+}
+.school {
+  background-image: url(../img/kid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+.theatre h4, .theatre p {
+  position: relative;
+  top: 75px;
+}
+.school h4, .school p {
+  position: relative;
+  top: 200px;
 }
 .smallerTrend {
   background-color: white;
-  padding-bottom: 10%;
-
+  width: 20%;
+  height: 100%;
+  margin: 0 1%;
 }
 .smallerTrendHide {
   background-color: white;
+  width: 20%;
+  height: 100%;
+  margin: 0 1%;
+}
+.fit {
+  max-width: 100%;
+
 }
 
-/*--------------------Tools Row Two*------------------*/
+/*--------------------Trends Row Two*------------------*/
 
+/*.trendsTwo {
+  height:
+}*/
 
 /*--------------------Tools Row*------------------*/
 
@@ -154,7 +187,13 @@ html, body {
     .smallerTrendHide {
       display: none;
     }
+    .smallerTrend {
+      width: 100%;
+    }
     .floatP {
+      display: none;
+    }
+    #latest {
       display: none;
     }
 
@@ -162,6 +201,10 @@ html, body {
 @media screen and (min-width: 601px) and (max-width: 1000px) {
   .smallerTrend {
     display: none;
+  }
+  .smallerTrendHide {
+    width: 48%;
+    margin: 1% ;
   }
   .floatP {
     display: none;
@@ -171,7 +214,12 @@ html, body {
     overflow: auto;
     float: left;
     /*display: block;*/
-
+  }
+  #latest {
+    display: none;
+  }
+  .theatre {
+    max-width: 100%;
   }
 
 }
@@ -182,8 +230,6 @@ html, body {
     background-size: cover;
     background-position: center;
     overflow: auto;
-    /*background-color: red;*/
-    border: 2px solid red;
   }
   .floatP {
     float: right;
