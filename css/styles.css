@@ -70,11 +70,13 @@ h1, h2, h3 ,h4 {
 }
 /*--------------------Trends Row*------------------*/
 
-.trendsTwo {
+.future {
+  padding-bottom: 10%;
+  border: 1px solid black;
 }
 
 .future h4 {
-  display: inline-block;
+
   color: black;
   margin: 0;
   padding: 0;
@@ -82,6 +84,7 @@ h1, h2, h3 ,h4 {
 }
 .smallerTrend {
   background-color: white;
+  padding-bottom: 10%;
 
 }
 .smallerTrendHide {
@@ -109,7 +112,8 @@ h1, h2, h3 ,h4 {
 
 .learn {
   display: block;
-  margin: auto;
+  margin: 5% auto;
+
 }
 
 /*--------------------Latest Data Row*------------------*/
