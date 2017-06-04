@@ -90,6 +90,15 @@ html, body {
   background-position: center;
   color: white;
 }
+.trends p, .trendsTwo p {
+  color: gray;
+  position: absolute;
+  bottom: 5%;
+
+}
+.school span {
+  color: white;
+}
 .theatre h4, .theatre p {
   position: relative;
   top: 75px;
@@ -97,6 +106,12 @@ html, body {
 .school h4, .school p {
   position: relative;
   top: 200px;
+}
+.theatre .white {
+  color: white;
+}
+.school .white {
+  color: white;
 }
 .smallerTrend {
   background-color: white;
@@ -113,6 +128,7 @@ html, body {
 .fit {
   max-width: 100%;
 }
+
 
 /*--------------------Trends Row Two*------------------*/
 
