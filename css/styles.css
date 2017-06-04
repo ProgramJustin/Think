@@ -23,7 +23,6 @@ html, body {
 
 .heads {
   margin-bottom: 5%;
-
 }
 .navbar {
   border: none;
@@ -31,12 +30,7 @@ html, body {
   max-width: 100%;
   width: 100%;
 }
-.navbar-header {
 
-}
-/*.navbar-header span {
-  border: 2px solid grey;
-}*/
 .navbar-header button {
   width: 100%;
   border: none;
@@ -180,12 +174,11 @@ html, body {
 }
 .hInline {
   display: inline-block;
-  background-color: white;
 }
 
 /*--------------------Footer Row*------------------*/
 .foot {
-  padding-top: 5%;
+  padding-top: 2%;
   border-top: 1px solid white;
   background-color: #3367D6;
   color: white;
@@ -199,7 +192,20 @@ html, body {
 }
 .foot ul li {
   display: inline-block;
-
+  font-size: 14px;
+  margin: 0 1%;
+}
+.foot li:first-child {
+  font-size: 22px;
+}
+.rightSocial {
+  float: right;
+  width: 15%;
+}
+.rightSocial .social {
+  width: 25px;
+  height: 25px;
+  margin: 1%;
 }
 
 @media screen and (min-width: 0px) and (max-width: 600px) {
