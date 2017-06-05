@@ -135,15 +135,6 @@ html, body {
 .tools {
   margin-bottom: 5%;
 }
-.divStock {
-  background-color: #CFD7DC;
-  width: 20%;
-}
-.stockImages {
-  max-width: 10%;
-
-}
-
 /*--------------------Button*------------------*/
 
 .learn {
@@ -154,7 +145,6 @@ html, body {
   border: none;
   border-radius: 2.5px;
   padding: 1%;
-
 }
 
 /*--------------------Latest Data Row*------------------*/
@@ -242,6 +232,9 @@ html, body {
     #latest {
       display: none;
     }
+    /*.tools .col-md-6 {
+      width: 98%;
+    }*/
     .tools img {
       float: left;
       margin: 1%;
@@ -293,20 +286,3 @@ html, body {
     display: none;
   }
 }
-
-/*.navbar-collapse {
-  margin-left: 5%;
-}*/
-
-/*.col-md-6 {
-  border: 2px solid red;
-  max-width: 100%;
-  width: 100%;
-}*/
-/*.heads {
-  background-color: #E2E7EA;
-  height: 450px;
-}
-.col-md-6, .col-md-3 {
-  border: 2px solid red
-}*/
